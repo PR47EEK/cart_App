@@ -6,11 +6,11 @@ function CartItem(props) {
   return (
     <div className="cart-item">
       <div className="left-block">
-        <img style={style.image} alt={""} />
+        <img style={style.image} alt={""} src={product.img} />
       </div>
       <div className="right-block">
         <div style={{ fontSize: 20 }}>{title}</div>
-        <div style={{ color: "#777" }}>{price}</div>
+        <div style={{ color: "#777" }}>Rs : {price}</div>
         <div style={{ color: "#777" }}>{qty}</div>
         <div className="cart-item-actions">
           {/*Buttons*/}
