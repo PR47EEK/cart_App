@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar(props) {
   return (
-    <div class="navbar" style={styles.nav}>
+    <div className="navbar" style={styles.nav}>
       <div style={styles.cartIconContainer}>
         <img
           style={styles.cartIcon}
